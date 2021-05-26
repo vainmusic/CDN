@@ -7,9 +7,6 @@ var nes;
 	    $(function() {
 	        nes = new JSNES({
 	            'ui': $('#emulator').JSNESUI({
-			    "广告位": [
-						
-					],
 	                "经典": [
 	                    ['纽约大拳猫', file + 'roms/rom2/RockinCats.nes'],
 	                    ['赤影战士 Kage', file + 'roms/other/Kage.nes'],
