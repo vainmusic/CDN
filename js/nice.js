@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 document.body.addEventListener('touchmove',
 function(e) {
         e.preventDefault()
@@ -6,6 +7,13 @@ function(e) {
         passive: false
 });
 
+=======
+
+	document.body.addEventListener('touchmove', function (e) {
+                e.preventDefault()
+            }, { passive: false });
+    
+>>>>>>> parent of 53204c5 (8键)
 var nes;
 $(function() {
         nes = new JSNES({
