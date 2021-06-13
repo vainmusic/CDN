@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 document.body.addEventListener('touchmove',
 function(e) {
         e.preventDefault()
@@ -7,6 +6,7 @@ function(e) {
         passive: false
 });
 
+<<<<<<< HEAD
 =======
 
 	document.body.addEventListener('touchmove', function (e) {
@@ -17,6 +17,8 @@ function(e) {
 >>>>>>> parent of 53204c5 (8键)
 =======
 >>>>>>> parent of 53204c5 (8键)
+=======
+>>>>>>> parent of 8359dda (Revert "Revert "111"")
 var nes;
 $(function() {
         nes = new JSNES({
