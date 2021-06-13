@@ -21,7 +21,7 @@ function select(val) {
     } else {
         return document.getElementById(val);
     }
-}
+};
 
 var joystick = new Joystick({
     el: select("controls-rocker"),
