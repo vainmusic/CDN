@@ -13,6 +13,9 @@ function(e) {
                 e.preventDefault()
             }, { passive: false });
     
+<<<<<<< HEAD
+>>>>>>> parent of 53204c5 (8键)
+=======
 >>>>>>> parent of 53204c5 (8键)
 var nes;
 $(function() {
